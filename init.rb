@@ -4,7 +4,7 @@ ActiveSupport::Reloader.to_prepare do
   require_dependency 'redmine_fix/fix_redmine_headers_middleware'
 end
 
-Redmine::Plugin.register :redmine_fix do
+Redmine::Plugin.register :redmine_fix_headers_middleware do
   name 'Redmine Fix Headers Middleware plugin'
   description 'This plugin is a private, specific plugin for my work'
   url 'https://github.com/nanego/redmine_fix_headers_middleware'
